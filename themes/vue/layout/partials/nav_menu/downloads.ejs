@@ -1,0 +1,16 @@
+
+<li class="nav downloads mac">
+  <a class="nav-link <%- page.path.match(/downloads\/mac(\/|$)/) ? 'current' : '' %>" href="<%- url_for("/downloads/mac/") %>"><i class='fa fa-apple fa-fw'></i>&nbsp;Mac</a>
+</li>
+
+<li class="nav downloads ios">
+  <a class="nav-link <%- page.path.match(/downloads\/ios(\/|$)/) ? 'current' : '' %>" href="<%- url_for("/downloads/ios/") %>"><i class='fa fa-apple fa-fw'></i>&nbsp;iOS</a>
+</li>
+
+<li class="nav downloads windows">
+  <a class="nav-link <%- page.path.match(/downloads\/windows(\/|$)/) ? 'current' : '' %>" href="<%- url_for("/downloads/windows/") %>"><i class='fa fa-windows fa-fw'></i>&nbsp;Windows</a>
+</li>
+
+<li class="nav downloads android">
+  <a class="nav-link <%- page.path.match(/downloads\/android(\/|$)/) ? 'current' : '' %>" href="<%- url_for("/downloads/android/") %>"><i class='fa fa-android fa-fw'></i>&nbsp;Android</a>
+</li>
