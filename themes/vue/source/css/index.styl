@@ -40,8 +40,8 @@ body
     .left, .right
       display inline-block
   .hero-logo
-    width 15em
-    height 15em
+    width 13em
+    height 13em
     float right
     margin-right 60px
     border-radius 50%
@@ -65,9 +65,10 @@ body
     &:not(:last-child)
       margin-right 1%
   ul, ol
-    padding: 12px
+    padding: 4px
     // FIX: Some link click targets are covered without this
     position: inherit
+    margin 8px
     &.center
       justify-content: center
     &.pure
@@ -78,9 +79,10 @@ body
       @media screen and (max-width: 900px)
         justify-content: center
       li
-        padding: 0 6px
+        padding: 12px
+        margin: 0 4px
         display: flex
-        width: 110px
+        width: 80px
         flex-direction: column
         align-items: stretch
         vertical-align: middle
@@ -88,21 +90,30 @@ body
         font-size: 0.9em
         line-height: 2em
         overflow: hidden
+        border-radius: 4px
+        background: alpha($color_theme, 0.7)
+        transition_all()
         a
-          padding: 16px
-          padding-bottom: 12px
+          margin: 0
+          font-size: 0.9em
+          line-height: 2em
           font-weight bold
           display: flex
           flex-direction: column
           align-items: center
           text-align: center
-          border-radius: 16px
+          border-radius: 4px
           color: white
-          background: alpha($color_theme, 0.8)
           .fa
-            font-size: 2.4em
+            font-size: 2em
+            margin-top: 4px
         img
           margin-bottom: 8px
+        &:hover,&.active,&:active
+          background: alpha($color_theme, 1)
+          transform: scale(1.02)
+          border-radius: 4px
+          box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.12), 0 16px 32px rgba(0,0,0,0.12)
       &.rounded
         img
           border-radius: 25%
