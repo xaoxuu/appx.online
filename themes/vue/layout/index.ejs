@@ -15,12 +15,14 @@
       <h2 class="vue"><%- config.title %></h2>
       <div class="home-nav">
         <ul class="pure center">
-          <li><a href="<%- url_for("/downloads/mac/") %>"><i class="fa fa-apple"></i>macOS</a></li>
-          <li><a href="<%- url_for("/downloads/ios/") %>"><i class="fa fa-apple"></i>iOS</a></li>
+          <li><a href="<%- url_for("/windows/") %>"><i class="fa fa-windows"></i>Windows</a></li>
+          <li><a href="<%- url_for("/mac/") %>"><i class="fa fa-apple"></i>macOS</a></li>
+          <li><a href="<%- url_for("/linux/") %>"><i class="fa fa-linux"></i>Linux</a></li>
         </ul>
+        <hr>
         <ul class="pure center">
-          <li><a href="<%- url_for("/downloads/windows/") %>"><i class="fa fa-windows"></i>Windows</a></li>
-          <li><a href="<%- url_for("/downloads/android/") %>"><i class="fa fa-android"></i>Android</a></li>
+          <li><a href="<%- url_for("/ios/") %>"><i class="fa fa-apple"></i>iOS</a></li>
+          <li><a href="<%- url_for("/android/") %>"><i class="fa fa-android"></i>Android</a></li>
         </ul>
       </div>
     </div>
