@@ -16,11 +16,13 @@
   <a class="nav-link <%- page.path.match(/more(\/|$)/) ? 'current' : '' %>"><i class='fa fa-ellipsis-v fa-fw'></i>&nbsp;更多</a>
   <ul class="nav-dropdown">
     <li><ul>
-      <li><a class="nav-link" target="_blank" href="https://xaoxuu.com/"><i class='fa fa-home fa-fw'></i>&nbsp;主页</a></li>
-      <li><a class="nav-link" target="_blank" href="https://xaoxuu.com/blog"><i class='fa fa-rss fa-fw'></i>&nbsp;博客</a></li>
+      <li><a class="nav-link" href="https://xaoxuu.com/"><i class='fa fa-home fa-fw'></i>&nbsp;主页</a></li>
+      <li><a class="nav-link" target="_blank" href="https://xaoxuu.com/blog/"><i class='fa fa-rss fa-fw'></i>&nbsp;博客</a></li>
+      <li><a class="nav-link" href="/bookmarks/"><i class='fa fa-bookmark fa-fw'></i>&nbsp;书签</a></li>
     </ul></li>
     <li><h4></h4></li>
     <li><ul>
+      <li><a class="nav-link" href="/forum/"><i class='fa fa-comments fa-fw'></i>&nbsp;留言</a></li>
       <li><a class="nav-link" target="_blank" href="mailto:<%- config.email %>"><i class='fa fa-envelope fa-fw'></i>&nbsp;邮件</a></li>
     </ul></li>
   </ul>
