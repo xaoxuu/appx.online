@@ -106,7 +106,7 @@ import:
 # 导航栏，建议以/结尾，少一次301重定向。
 nav_menu:
   - name: Recent
-    icon: fas fa-home
+    icon: fas fa-clock
     url: /
   - name: Timeline
     icon: fas fa-archive
@@ -129,11 +129,7 @@ social:
   - icon: fas fa-envelope
     url: mailto:me@xaoxuu.com
   - icon: fab fa-github
-    url: https://github.com/xaoxuu
-  - icon: fab fa-twitter
-    url: https://twitter.com/xaoxuu
-  - icon: fas fa-headphones-alt
-    url: https://music.163.com/#/user/home?id=63035382
+    url: https://github.com/appx-online
 
 # ====================================================================== SEO优化
 # sitemap
@@ -179,7 +175,7 @@ valine:
   guest_info: nick,mail,link #valine comment header info
   placeholder: Just Go Go. # valine comment input placeholder(like: Please leave your footprints )
   avatar: mp # gravatar style https://valine.js.org/avatar
-  pageSize: 20 # comment list page size
+  pageSize: 10 # comment list page size
   verify: false # valine verify code (true/false)
   notify: false # valine mail notify (true/false)
   lang: en
@@ -194,54 +190,6 @@ feed:
   content:
 
 # ====================================================================== key
-
-# 百度统计key
-# baidu_analytics_key: cd037d28d6a6eaf5b81b7c9b024741cc
-# google_analytics_key:
-
-# leancloud统计
-# leancloud_visitors:
-#   app_id: 9NJ4wSvxCJ4Yws4mbTq8WvuS-gzGzoHsz
-#   app_key: O33p1gnzt8aGUJDY5JwDTszJ
-#
-# mob:
-#   app_key: 1fc0b2baa31bd
-#   list:
-#   - id: qq
-#     name: QQ好友
-#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/qq.png
-#   - id: qzone
-#     name: QQ空间
-#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/qzone.png
-#   - id: weixin
-#     name: 微信
-#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/wechat.png
-#   - id: weibo
-#     name: 微博
-#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/weibo.png
-#   - id: twitter
-#     name: Twitter
-#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/twitter.png
-
-share:
-  - id: qq
-    name: QQ好友
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
-  - id: qzone
-    name: QQ空间
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
-  - id: qrcode
-    name: 微信
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
-  - id: weibo
-    name: 微博
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
-  - id: qrcode
-    name: QRcode
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
-  # - id: twitter
-  #   name: Twitter
-  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/twitter.png
 
 # Generator json content
 jsonContent:
