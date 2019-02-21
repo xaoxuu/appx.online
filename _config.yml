@@ -1,69 +1,64 @@
-# Hexo Configuration
-
 # Site
 title: 'appx online'
-subtitle:
-description:
+# subtitle: "Only the ladder is real. The climb is all there is."
 author: xaoxuu
+# favicon: ahttps://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
+avatar: ahttps://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+language:
+- en
+- zh-CN
+- zh-HK
+- zh-TW
+# timezone:
 email: me@xaoxuu.com
-language: zh-CN
-
-shortcut_icon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicon.ico
-favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicon.ico
-avatar: https://img.vim-cn.com/3f/8153dc97b2e4d84e8973f198962b61fa6831ba.png
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+root_domain: xaoxuu.com
 url: https://appx.online
-# url: http://localhost:4000
 root: /
-permalink: posts/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-
-# Directory
-source_dir: src
-public_dir: public
+i18n_dir: :lang
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-auto_spacing: false # Add spaces between asian characters and western characters
+auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
-max_open_file: 100
-multi_thread: true
-filename_case: 0
+filename_case: 1 # 把文件名称转换为 (1) 小写或 (2) 大写	默认(0)
 render_drafts: false
 post_asset_folder: false
+relative_link: false
+future: false
 highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace: '    '
+  tab_replace: "    "
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
 
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
-
-# Archives
-## 2: Enable pagination
-## 1: Disable pagination
-## 0: Fully Disable
-archive: 0
-category: 0
-tag: 0
-
-# Server
-## Hexo uses Connect as a server
-## You can customize the logger format as defined in
-## http://www.senchalabs.org/connect/logger.html
-port: 4000
-logger: false
-logger_format:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -72,124 +67,223 @@ logger_format:
 date_format: 'YYYY-MM-DD dddd'
 time_format: HH:mm:ss
 
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
-
-# Disqus
-disqus_shortname:
-
 # Extensions
-## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
-## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: vue
-exclude_generator:
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: material-x
 
-# Markdown
-## https://github.com/chjj/marked
-markdown:
-  gfm: true
-  pedantic: false
-  sanitize: false
-  tables: true
-  breaks: true
-  smartLists: true
-  smartypants: true
+theme_cdn: true
+
+# 全局导入
+import:
+  css:
+  js:
+  meta:
+  - name: "theme-color"
+    content: "#f24e32"
+  - name: "msapplication-TileColor"
+    content: "#f24e32"
+  - name: "msapplication-config"
+    content: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/browserconfig.xml
+  link:
+  - rel: 'shortcut icon'
+    type: 'image/x-icon'
+    href: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
+  - rel: 'icon'
+    type: 'image/x-icon'
+    sizes: '32x32'
+    href: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/favicon-32x32.png
+  - rel: 'apple-touch-icon'
+    type: 'image/png'
+    sizes: '180x180'
+    href: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/apple-touch-icon.png
+  - rel: 'mask-icon'
+    href: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/safari-pinned-tab.svg
+    color: '#f24e32'
+  - rel: 'manifest'
+    href: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/site.webmanifest
+
+# 导航栏，建议以/结尾，少一次301重定向。
+nav_menu:
+  - name: Recent
+    icon: fas fa-home
+    url: /
+  - name: Timeline
+    icon: fas fa-archive
+    url: archives/
+  - name: Forum
+    icon: fas fa-comments
+    url: forum/
+
+# 侧边栏小部件
+widgets:
+  - widget: category
+  - widget: tagcloud
+  - widget: toc
+
 
 # 页脚社交信息
 social:
-  - icon: fa-home
-    url: https://xaoxuu.com
-  - icon: fa-rss
-    url: https://xaoxuu.com/blog
-  - icon: fa-envelope
+  - icon: fas fa-rss
+    url: atom.xml
+  - icon: fas fa-envelope
     url: mailto:me@xaoxuu.com
-  - icon: fa-github
+  - icon: fab fa-github
     url: https://github.com/xaoxuu
+  - icon: fab fa-twitter
+    url: https://twitter.com/xaoxuu
+  - icon: fas fa-headphones-alt
+    url: https://music.163.com/#/user/home?id=63035382
 
-homepage:
-  h1: 山重水复疑无路
-  h2: 柳暗花明又一村
-# motto:
-#   - title: haha
-#     detail: asdlkfnlasdfndsf
-#   - title: haha
-#     detail: asdlkfnlasdfndsf
-#   - title: haha
-#     detail: asdlkfnlasdfndsf
-
-# valine
-valine:
-  enable: true # 如果你想用Valine评论系统，请设置enable为true
-  appId: dAAL3f8phzeu8bQ1BgR7zuXJ-gzGzoHsz
-  appKey: tjn8iSu12Y18cJMtSD5oTR1z
-  guest_info: nick,mail,link #valine comment header info
-  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
-  avatar: mp # gravatar style https://valine.js.org/avatar
-  pageSize: 20 # comment list page size
-  verify: true # valine verify code (true/false)
-  notify: true # valine mail notify (true/false)
-  lang: zh-cn
-  highlight: true
-
-
-# Offline
-## Config passed to sw-precache
-## https://github.com/JLHwung/hexo-offline
-offline:
-  maximumFileSizeToCacheInBytes: 10485760
-  staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,jpeg,gif,svg,eot,ttf,woff,woff2,json,xml}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    # Ad Sources - should be networkFirst
-    - urlPattern: /*
-      handler: networkFirst
-      options:
-        origin: sendgrid.sp1.convertro.com
-    - urlPattern: /*
-      handler: networkFirst
-      options:
-        origin: ad.doubleclick.net
-    # CDNs - should be cacheFirst, since they should be used specific versions so should not change
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.jsdelivr.net
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: fonts.googleapis.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: fonts.gstatic.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdnjs.cloudflare.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: maxcdn.bootstrapcdn.com
+# ====================================================================== SEO优化
+# sitemap
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
 
 nofollow:
   enable: true
   exclude:
-    - xaoxuu.com
+  - xaoxuu.com
+
+# ====================================================================== 加载速度优化
+# 图片懒加载
+lazyload:
+  enable: true
+  onlypost: false
+  loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/亲亲.gif
+
+# all_minifier: true
+
+# autoprefixer
+autoprefixer:
+  exclude:
+  - '*.min.css'
+  # remove: false # prevent autoprefixer remove page-break-inside
+  # browsers:
+  #   - 'last 2 versions'
+  #   - '> 5%'
+
+
+# ======================================================================  评论
+
+# 评论
+# disqus_shortname: xaoxuu
+# livere_uid:
+# valine
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  app_id: dAAL3f8phzeu8bQ1BgR7zuXJ-gzGzoHsz
+  app_key: tjn8iSu12Y18cJMtSD5oTR1z
+  guest_info: nick,mail,link #valine comment header info
+  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+  avatar: mp # gravatar style https://valine.js.org/avatar
+  pageSize: 20 # comment list page size
+  verify: false # valine verify code (true/false)
+  notify: false # valine mail notify (true/false)
+  lang: zh-cn
+  highlight: false
+
+# feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+
+# ====================================================================== key
+
+# 百度统计key
+# baidu_analytics_key: cd037d28d6a6eaf5b81b7c9b024741cc
+# google_analytics_key:
+
+# leancloud统计
+# leancloud_visitors:
+#   app_id: 9NJ4wSvxCJ4Yws4mbTq8WvuS-gzGzoHsz
+#   app_key: O33p1gnzt8aGUJDY5JwDTszJ
+#
+# mob:
+#   app_key: 1fc0b2baa31bd
+#   list:
+#   - id: qq
+#     name: QQ好友
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/qq.png
+#   - id: qzone
+#     name: QQ空间
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/qzone.png
+#   - id: weixin
+#     name: 微信
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/wechat.png
+#   - id: weibo
+#     name: 微博
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/weibo.png
+#   - id: twitter
+#     name: Twitter
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/twitter.png
+
+share:
+  - id: qq
+    name: QQ好友
+    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
+  - id: qzone
+    name: QQ空间
+    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
+  - id: qrcode
+    name: 微信
+    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
+  - id: weibo
+    name: 微博
+    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
+  - id: qrcode
+    name: QRcode
+    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
+  # - id: twitter
+  #   name: Twitter
+  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.7/logo/128/twitter.png
+
+# Generator json content
+jsonContent:
+  meta: false
+  keywords: false
+  pages:
+    title: true
+    slug: false
+    date: false
+    updated: false
+    comments: false
+    path: false
+    link: false
+    permalink: true
+    excerpt: false
+    keywords: false
+    text: true
+    raw: false
+    content: false
+  posts:
+    title: true
+    slug: false
+    date: false
+    updated: false
+    comments: false
+    path: false
+    link: false
+    permalink: true
+    excerpt: false
+    keywords: false
+    text: true
+    raw: false
+    content: false
+    categories: false
+    tags: false
 
 
 # Deployment
-## Docs: http://zespia.tw/hexo/docs/deployment.html
+## Docs: https://hexo.io/docs/deployment.html
+# npm install hexo-deployer-git --save
 deploy:
 - type: git
   repo: https://github.com/xaoxuu/appx.online.git
   branch: gh-pages
   message: update
-
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
