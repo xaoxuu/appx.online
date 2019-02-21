@@ -232,6 +232,6 @@ jsonContent:
 # npm install hexo-deployer-git --save
 deploy:
 - type: git
-  repo: https://github.com/xaoxuu/appx.online.git
+  repo: https://github.com/appx-online/appx.online.git
   branch: gh-pages
   message: update
