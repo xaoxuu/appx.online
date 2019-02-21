@@ -8,9 +8,9 @@ author: xaoxuu
 email: me@xaoxuu.com
 language: zh-CN
 
-shortcut_icon: "https://xaoxuu.com/assets/img/favicon.ico"
-favicon: "https://xaoxuu.com/assets/img/favicon.ico"
-avatar: "https://xaoxuu.com/assets/img/avatar.jpg"
+shortcut_icon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicon.ico
+favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicon.ico
+avatar: https://img.vim-cn.com/3f/8153dc97b2e4d84e8973f198962b61fa6831ba.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
