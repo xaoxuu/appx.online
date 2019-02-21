@@ -2,7 +2,7 @@
 title: KMSpico
 categories: Windows
 tags:
-  - System
+  - Utilities
 ---
 
 | Source                            | Updated | Size | Download                                   |
