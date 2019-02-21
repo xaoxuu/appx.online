@@ -7,7 +7,7 @@ type: Windows
 
 ### Windows 10 （1803） <sup data-p="red">商业软件</sup>
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="unknown">[MSDN][MSDN]</div> | 2018-08 | 4.91GB | [零售版 x64][win10cx64] |
 | <div class="unknown">[MSDN][MSDN]</div> | 2018-08 | 3.81GB | [零售版 x86][win10cx86] |
@@ -27,7 +27,7 @@ type: Windows
 
 ### KMSpico <sup data-p="green">免费软件</sup>
 
-| 文件来源                            | 更新时间 | 文件大小 | 各版本下载链接                                   |
+| Source                            | Updated | Size | Download                                   |
 | ----------------------------------- | -------- | -------- | ------------------------------------------------ |
 | <div class="unknown">[GitHub][github_kms]</div> | 2016-06  | 4.9MB     | [KMSpico v10.2 免安装版][KMSpicov102Portable] |
 
@@ -36,7 +36,7 @@ type: Windows
 
 ### GHOST <sup data-p="green">免费软件</sup>
 
-| 文件来源                            | 更新时间 | 文件大小 | 各版本下载链接                                   |
+| Source                            | Updated | Size | Download                                   |
 | ----------------------------------- | -------- | -------- | ------------------------------------------------ |
 | <div class="unsafe">未知</div> | 未知  | 4MB     | [免安装版](https://img.vim-cn.com/ae/5d53747d223978a13e37dd25ce22d9a86133aa.zip) |
 
@@ -45,7 +45,7 @@ type: Windows
 
 ### Microsoft Office 2016 <sup data-p="red">商业软件</sup>
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="unknown">[MSDN][MSDN]</div> | 2016 | 2.41GB | [Professional Plus x86 x64][msoffice2016x86x64] |
 
@@ -57,13 +57,13 @@ type: Windows
 
 ### Google Chrome <sup data-p="green">免费软件</sup>
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="safe google">[Google](https://www.google.cn/chrome/index.html)</div> | 2018-09 | 1MB | [在线安装器](https://img.vim-cn.com/1e/6e38925febe4bfc7c189feb2dcf1b6c080bf02.zip) |
 
 ### Lantern <sup data-p="red">商业软件，每月免费300MB</sup>
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="safe">[GitHub](https://github.com/getlantern/download/wiki)</div> | 2018-09 | 7.6MB | [lantern-installer.exe](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe) |
 
@@ -74,13 +74,13 @@ type: Windows
 
 ### Atom <sup data-p="green">开源和免费软件</sup>
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="safe">[Atom](http://atom.io)</div> | 2018-08 | 129MB | [1.30.0](https://github.com/atom/atom/releases/download/v1.30.0/atom-windows.zip) |
 
 ### Typora <sup data-p="green">免费软件</sup>
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="safe">[Typora](https://typora.io/)</div> | 2018-09 | 66.3MB | [beta x64](https://typora.io/windows/typora-setup-x64.exe?) |
 
@@ -89,6 +89,6 @@ type: Windows
 
 ### MATLAB <sup data-p="red">商业软件</sup>
 
-| 文件来源                            | 更新时间 | 文件大小 | 各版本下载链接                                   |
+| Source                            | Updated | Size | Download                                   |
 | ----------------------------------- | -------- | -------- | ------------------------------------------------ |
 | <div class="unsafe">未知</div> | 未知  | 6.3MB     | [5.3 精简版](https://img.vim-cn.com/23/5aa44945f08a93eebd3ba2cc7f3bc221a5a118.zip) |

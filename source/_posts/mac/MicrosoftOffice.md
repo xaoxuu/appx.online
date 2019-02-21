@@ -5,7 +5,7 @@ tags:
   - Office
 ---
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | ------- |
 | <div class="unsafe">未知<div> | 2018-09-13 | 1.81GB (种子: 36KB) | [16.17](https://img.vim-cn.com/d5/74aa64e22a4d9f5c1afb77ea6c407480d8befd.zip) |
 | <div class="unknown">[MSDN][MSDN]</div> | 2016 | 2.41GB | [2016 家庭和商业版][msoffice2016mac] |

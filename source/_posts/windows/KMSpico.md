@@ -5,7 +5,7 @@ tags:
   - System
 ---
 
-| 文件来源                            | 更新时间 | 文件大小 | 各版本下载链接                                   |
+| Source                            | Updated | Size | Download                                   |
 | ----------------------------------- | -------- | -------- | ------------------------------------------------ |
 | <div class="unknown">[GitHub][github_kms]</div> | 2016-06  | 4.9MB     | [KMSpico v10.2 免安装版][KMSpicov102Portable] |
 

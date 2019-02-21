@@ -5,7 +5,7 @@ tags:
   - Utilities
 ---
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="unknown">[MSDN][MSDN]</div> | 2018-08 | 4.91GB | [零售版 x64][win10cx64] |
 | <div class="unknown">[MSDN][MSDN]</div> | 2018-08 | 3.81GB | [零售版 x86][win10cx86] |

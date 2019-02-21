@@ -5,7 +5,7 @@ tags:
   - Office
 ---
 
-| 文件来源 | 更新时间 | 文件大小 | 各版本下载链接 |
+| Source | Updated | Size | Download |
 | ------ | ------- | -------- | -------- |
 | <div class="unknown">[MSDN][MSDN]</div> | 2016 | 2.41GB | [Professional Plus x86 x64][msoffice2016x86x64] |
 
