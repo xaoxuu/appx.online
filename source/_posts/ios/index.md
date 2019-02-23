@@ -1,5 +1,7 @@
 ---
-title: iOS Beta版 描述文件
+title: iOS Beta Profile
+date: 2019-02-23
+updated: 2019-02-23
 categories: iOS
 
 ---

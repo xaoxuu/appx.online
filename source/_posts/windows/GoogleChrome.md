@@ -1,5 +1,7 @@
 ---
 title: Google Chrome
+date: 2019-02-23
+updated: 2019-02-23
 categories: Windows
 tags:
   - Browser

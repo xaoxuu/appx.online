@@ -1,5 +1,7 @@
 ---
 title: Typora
+date: 2019-02-23
+updated: 2019-02-23
 categories: macOS
 tags:
   - Editor
