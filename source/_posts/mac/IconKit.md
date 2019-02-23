@@ -1,5 +1,6 @@
 ---
 title: IconKit
+logo: https://img.vim-cn.com/57/a644f3d9c12816ac1b7efda8ddbc5e01779395.png
 date: 2019-02-23
 updated: 2019-02-23
 categories: macOS

@@ -1,5 +1,6 @@
 ---
 title: Sublime Text
+logo: https://img.vim-cn.com/09/50126cc76d7e54d5beb1931e49833370054003.png
 date: 2019-02-23
 updated: 2019-02-23
 categories: macOS
