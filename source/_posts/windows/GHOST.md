@@ -3,6 +3,8 @@ title: GHOST
 logo: https://img.vim-cn.com/98/5e7df016be94b6d4441afb487ddb9ecbea98f5.png
 date: 2019-02-23
 updated: 2019-02-23
+meta:
+  date: false
 categories: Windows
 tags:
   - Utilities

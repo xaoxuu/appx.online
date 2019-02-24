@@ -3,6 +3,8 @@ title: CleanMyMac X
 logo: https://img.vim-cn.com/4c/70a44d3012787e67ae1f9d821c70d1ba5268b1.png
 date: 2019-02-23
 updated: 2019-02-23
+meta:
+  date: false
 categories: macOS
 tags:
   - Utilities

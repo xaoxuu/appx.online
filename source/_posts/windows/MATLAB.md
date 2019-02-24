@@ -3,6 +3,8 @@ title: MATLAB
 logo: https://img.vim-cn.com/d1/e936a760cf6527d6be62e629abb41d6826c3df.png
 date: 2019-02-23
 updated: 2019-02-23
+meta:
+  date: false
 categories: Windows
 tags:
   - Utilities

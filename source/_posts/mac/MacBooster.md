@@ -3,6 +3,8 @@ title: MacBooster
 logo: https://img.vim-cn.com/60/e798d24ea777ae824402fd4e1539d3111a0bee.png
 date: 2019-02-23
 updated: 2019-02-23
+meta:
+  date: false
 categories: macOS
 tags:
   - Utilities

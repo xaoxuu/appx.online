@@ -3,6 +3,8 @@ title: Microsoft Office
 logo: https://img.vim-cn.com/82/71aaaf8be578729d73d0b83b2470f0ba031443.png
 date: 2019-02-23
 updated: 2019-02-23
+meta:
+  date: false
 categories: Windows
 tags:
   - Office
