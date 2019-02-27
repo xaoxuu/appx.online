@@ -1,6 +1,6 @@
 ---
 title: Sketch
-logo: https://img.vim-cn.com/dc/9eebf1d15e5489c8ce7c55ccc57904445d59a0.png
+thumbnail: https://img.vim-cn.com/dc/9eebf1d15e5489c8ce7c55ccc57904445d59a0.png
 date: 2019-02-23
 updated: 2019-02-23
 meta:

@@ -1,6 +1,6 @@
 ---
 title: Atom
-logo: https://img.vim-cn.com/a8/c56f79fbc764353a147a67c27a8d520dc4bac5.png
+thumbnail: https://img.vim-cn.com/a8/c56f79fbc764353a147a67c27a8d520dc4bac5.png
 date: 2019-02-23
 updated: 2019-02-23
 meta:

@@ -1,6 +1,6 @@
 ---
 title: Windows 10
-logo: https://img.vim-cn.com/ad/f584500d16af4a004b3f320506544ac23bc64e.png
+thumbnail: https://img.vim-cn.com/ad/f584500d16af4a004b3f320506544ac23bc64e.png
 date: 2019-02-23
 updated: 2019-02-23
 meta:
