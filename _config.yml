@@ -2,8 +2,8 @@
 title: 'appx online'
 # subtitle: "Only the ladder is real. The climb is all there is."
 author: appx.online
-# favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
-avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+favicon: favicon/favicon.ico
+avatar: https://img.vim-cn.com/c1/4a5fadaff3d228675c9944a7e19befec199c4c.png
 language:
 - en
 - zh-CN
@@ -34,7 +34,7 @@ skip_render: README.md
 new_post_name: :title.md # File name of new posts
 default_layout: post
 auto_spacing: true
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 1 # 把文件名称转换为 (1) 小写或 (2) 大写	默认(0)
 render_drafts: false
@@ -53,7 +53,7 @@ highlight:
 index_generator:
   path: ''
   per_page: 10
-  order_by: -date
+  order_by: -updated
 
 # Category & Tag
 default_category: uncategorized
@@ -72,20 +72,19 @@ time_format: HH:mm:ss
 ## Themes: https://hexo.io/themes/
 theme: material-x
 
-theme_cdn: true
+# theme_cdn: true
 
 # 全局导入
 import:
   meta:
   - "<meta name='theme-color' content='#FFFFFF'>"
   - "<meta name='msapplication-TileColor' content='#1BC3FB'>"
-  - "<meta name='msapplication-config' content='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/browserconfig.xml'>"
+  - "<meta name='msapplication-config' content='favicon/browserconfig.xml'>"
   link:
-  - "<link rel='shortcut icon' type='image/x-icon' href='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico'>"
-  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/favicon-32x32.png'>"
-  - "<link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/apple-touch-icon.png'>"
-  - "<link rel='mask-icon' color='#1BC3FB' href='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/safari-pinned-tab.svg'>"
-  - "<link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicons/site.webmanifest'>"
+  - "<link rel='shortcut icon' type='image/x-icon' href='favicon/favicon.ico'>"
+  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='favicon/favicon-32x32.png'>"
+  - "<link rel='mask-icon' color='#1BC3FB' href='favicon/safari-pinned-tab.svg'>"
+  - "<link rel='manifest' href='favicon/site.webmanifest'>"
   # script:
 
 # 导航栏，建议以/结尾，少一次301重定向。
@@ -102,11 +101,13 @@ menu:
 
 # 侧边栏小部件
 widgets:
+  - widget: author
+    avatar: https://img.vim-cn.com/ae/2e0ffa7c770dbebba64f2f1770c29788a09e24.png
+  - widget: toc
   - widget: category
   - widget: tagcloud
     start_color: '#999'
-    end_color: '#555'
-  - widget: toc
+    end_color: '#EEE'
 
 footer: '本站所有下载链接均标注文件来源，如果部分第三方下载源的软件侵犯了开发商或者合法代理商的权利，可联系站长删除该链接。'
 
