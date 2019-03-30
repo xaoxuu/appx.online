@@ -2,8 +2,9 @@
 title: 'appx online'
 # subtitle: "Only the ladder is real. The climb is all there is."
 author: appx.online
-favicon: favicon/favicon.ico
-avatar: https://img.vim-cn.com/c1/4a5fadaff3d228675c9944a7e19befec199c4c.png
+favicon: assets/favicon/favicon.ico
+logo: assets/logo.png
+avatar: https://img.vim-cn.com/ae/2e0ffa7c770dbebba64f2f1770c29788a09e24.png
 language:
 - en
 - zh-CN
@@ -79,12 +80,12 @@ import:
   meta:
   - "<meta name='theme-color' content='#FFFFFF'>"
   - "<meta name='msapplication-TileColor' content='#1BC3FB'>"
-  - "<meta name='msapplication-config' content='favicon/browserconfig.xml'>"
+  - "<meta name='msapplication-config' content='assets/favicon/browserconfig.xml'>"
   link:
-  - "<link rel='shortcut icon' type='image/x-icon' href='favicon/favicon.ico'>"
-  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='favicon/favicon-32x32.png'>"
-  - "<link rel='mask-icon' color='#1BC3FB' href='favicon/safari-pinned-tab.svg'>"
-  - "<link rel='manifest' href='favicon/site.webmanifest'>"
+  - "<link rel='shortcut icon' type='image/x-icon' href='assets/favicon/favicon.ico'>"
+  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='assets/favicon/favicon-32x32.png'>"
+  - "<link rel='mask-icon' color='#1BC3FB' href='assets/favicon/safari-pinned-tab.svg'>"
+  - "<link rel='manifest' href='assets/favicon/site.webmanifest'>"
   # script:
 
 # 导航栏，建议以/结尾，少一次301重定向。
