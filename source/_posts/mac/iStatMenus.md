@@ -5,7 +5,7 @@ date: 2019-02-23
 updated: 2019-02-23
 meta:
   date: false
-categories: macOS
+categories: Mac
 tags:
   - Utilities
 ---

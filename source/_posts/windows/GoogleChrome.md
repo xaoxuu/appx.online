@@ -1,5 +1,5 @@
 ---
-title: Google Chrome
+title: Google Chrome for Windows
 thumbnail: https://img.vim-cn.com/dd/ec8a0cd26aff371ddfd4c941f8f80f5970d40c.png
 date: 2019-02-23
 updated: 2019-02-23

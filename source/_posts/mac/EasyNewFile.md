@@ -5,7 +5,7 @@ date: 2019-03-30
 updated: 2019-03-30
 meta:
   date: false
-categories: macOS
+categories: Mac
 tags:
   - Editor
 ---
