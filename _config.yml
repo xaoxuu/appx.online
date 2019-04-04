@@ -87,7 +87,7 @@ import:
   - "<link rel='mask-icon' color='#1BC3FB' href='assets/favicon/safari-pinned-tab.svg'>"
   - "<link rel='manifest' href='assets/favicon/site.webmanifest'>"
   # script:
- 
+
 # ====================================================================== SEO优化
 # sitemap
 sitemap:
@@ -105,7 +105,7 @@ nofollow:
 lazyload:
   enable: true
   onlypost: false
-  loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/亲亲.gif
+  loadingImg: 
 
 # all_minifier: true
 
