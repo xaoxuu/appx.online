@@ -6,8 +6,7 @@ updated: 2019-02-23
 meta:
   date: false
 categories: Windows
-tags:
-  - System
+tags: [操作系统]
 ---
 
 ## 1803

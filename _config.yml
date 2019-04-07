@@ -6,8 +6,8 @@ logo: assets/logo.png
 avatar: https://img.vim-cn.com/47/4b71c2326821a0565b04db27065a149aff0de2.png
 
 language:
-- en
 - zh-CN
+- en
 - zh-HK
 - zh-TW
 # timezone:

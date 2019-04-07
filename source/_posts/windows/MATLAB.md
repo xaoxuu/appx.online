@@ -6,8 +6,7 @@ updated: 2019-02-23
 meta:
   date: false
 categories: Windows
-tags:
-  - Utilities
+tags: [分析计算]
 ---
 
 | Source                            | Updated | Size | Download                                   |

@@ -6,8 +6,7 @@ updated: 2019-02-23
 meta:
   date: false
 categories: Windows
-tags:
-  - Browser
+tags: [浏览器]
 ---
 
 

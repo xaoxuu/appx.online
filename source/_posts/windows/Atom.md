@@ -6,8 +6,7 @@ updated: 2019-02-23
 meta:
   date: false
 categories: Windows
-tags:
-  - Editor
+tags: [编辑器]
 ---
 
 | Source | Updated | Size | Download |

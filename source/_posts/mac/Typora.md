@@ -6,8 +6,7 @@ updated: 2019-03-30
 meta:
   date: false
 categories: Mac
-tags:
-  - Editor
+tags: [编辑器]
 ---
 
 Download the latest version directly from the official website: [https://typora.io/download/Typora.dmg](https://typora.io/download/Typora.dmg)

@@ -6,8 +6,7 @@ updated: 2019-03-30
 meta:
   date: false
 categories: Mac
-tags:
-  - Editor
+tags: [编辑器]
 ---
 
 | Source | Updated | Size | Download |
