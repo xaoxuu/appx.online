@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Forum
-meta:
-  author: false
-  date: false
-  counter: false
+title: 留言
+body: [grid, comments]
+sidebar: false
 ---
