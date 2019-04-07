@@ -1,10 +1,10 @@
 # Site
 title: 'appx online'
-# subtitle: "Only the ladder is real. The climb is all there is."
-author: appx.online
+author: Mr.X
 favicon: assets/favicon/favicon.ico
 logo: assets/logo.png
-avatar: https://img.vim-cn.com/ae/2e0ffa7c770dbebba64f2f1770c29788a09e24.png
+avatar: https://img.vim-cn.com/47/4b71c2326821a0565b04db27065a149aff0de2.png
+
 language:
 - en
 - zh-CN
@@ -105,7 +105,7 @@ nofollow:
 lazyload:
   enable: true
   onlypost: false
-  loadingImg: 
+  loadingImg:
 
 # all_minifier: true
 
