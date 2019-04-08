@@ -7,7 +7,7 @@ thumbnail: https://user-images.githubusercontent.com/16400144/55666069-af7df500-
 date: 2019-04-07
 updated: 2019-04-07
 categories: Mac
-tags: [开源, 原创, 文档]
+tags: [开源, 文档]
 ---
 
 

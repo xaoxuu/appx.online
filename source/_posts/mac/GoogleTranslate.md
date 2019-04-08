@@ -7,7 +7,7 @@ thumbnail: https://img.vim-cn.com/72/3b79066c359b0ddb04d2479440992ee1033815.png
 date: 2019-04-07
 updated: 2019-04-08
 categories: Mac
-tags: [开源, 原创, 实用工具]
+tags: [开源, 实用工具]
 ---
 
 GoogleTranslate for Mac 谷歌翻译的Mac客户端，固定在MenuBar上方便使用。
