@@ -3,8 +3,6 @@ title: KMSpico
 thumbnail: https://img.vim-cn.com/0b/7c547041f95cee665d1ade9967e211fb9a1911.png
 date: 2019-02-23
 updated: 2019-02-23
-meta:
-  date: false
 categories: Windows
 tags: [系统工具]
 ---

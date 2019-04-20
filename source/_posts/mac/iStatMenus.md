@@ -3,8 +3,6 @@ title: iStat Menus
 thumbnail: https://img.vim-cn.com/e7/993e1116d0ac4459bc76630d08bf0ca5ca372e.png
 date: 2019-02-23
 updated: 2019-02-23
-meta:
-  date: false
 categories: Mac
 tags: [系统工具]
 ---
